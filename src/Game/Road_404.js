@@ -9,11 +9,11 @@ class Road_404 {
     }
 
     get Road(){
-        console.log("Road=", this.#_road)
+        /*console.log("Road=", this.#_road)
         console.log("LevelRoad=", this.#_levelRoad)
         console.log("RoadSize=", this.#_roadSize)
         console.log("EndRoadIndex=", this.#_endRoadIndex)
-        console.trace()
+        console.trace()*/
 
         if (this.#_road.length == 0){
             this.#CreateRoad()
@@ -44,7 +44,7 @@ class Road_404 {
     }
 
     GenerateLevel() {
-        this.#_levelRoad = [1,2,1,0,1,0,0,0,0,1,2,1,2,2,1,0,1,0,0,0,0,0,1,2,1,2,2,1,0,1,0,1,0,1]
+        this.#_levelRoad = [1,2,1,0,1,0,0,0,0,1,2,1,2,2,1,0,1,0,0,0,0,0,1,2,1,2,2,1,0,1,0,1,0,1,1,2,1,0,1,0,0,0,0,1,2,1,2,2,1,0,1,0,0,0,0,0,1,2,1,2,2,1,0,1,0,1,0,1]
     }
 }
 
